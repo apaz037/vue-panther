@@ -1,0 +1,14 @@
+{
+  parser: "babel-eslint",
+  extends: [ /* your usual extends */ ],
+  plugins: [
+            'vue',
+            'html'
+            ],
+  rules: {
+    'vue/jsx-uses-vars': 2,
+  },
+  settings: {
+    'html/html-extensions': ['.html', '.vue'],  // consider .html and .we files as HTML
+    }
+}

@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/apaz037/vue-panther/issues"
   },
-  "homepage": "https://github.com/apaz037/vue-panther#readme"
+  "homepage": "https://github.com/apaz037/vue-panther#readme",
+  "dependencies": {
+    "vue": "^2.4.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.5.0",
+    "eslint-config-vue": "^2.0.2",
+    "eslint-plugin-html": "^3.2.0",
+    "eslint-plugin-vue": "^3.12.0"
+  }
 }
