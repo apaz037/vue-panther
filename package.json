@@ -1,0 +1,19 @@
+{
+  "name": "vue-panther",
+  "version": "1.0.0",
+  "description": "Familiarizing myself more with Vue.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apaz037/vue-panther.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apaz037/vue-panther/issues"
+  },
+  "homepage": "https://github.com/apaz037/vue-panther#readme"
+}
