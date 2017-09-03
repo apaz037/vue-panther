@@ -14,7 +14,10 @@ export const store = {
   },
 
   getCryptoData() {
-    axios.get(baseUrl + 'ticket/?limit=100').then((response) => {
+    // json model - storing for later
+
+
+    axios.get(baseUrl + 'ticker/?limit=100').then((response) => {
       this.state.cryptos = response.data
       this.state.cryptos.forEach(crypto =>  this.addDetails(crypto));
     })

@@ -11,7 +11,7 @@ export default new VueRouter({
       component: layoutComponent
     },
     {
-      path: '',
+      path: '/:id',
       component: cryptoComponent
     }
   ],
